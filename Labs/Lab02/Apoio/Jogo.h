@@ -1,4 +1,4 @@
-// declaração da classe Jogo
+// declaraï¿½ï¿½o da classe Jogo
 #include <string>
 using std::string;
 
@@ -6,7 +6,7 @@ class Jogo
 {
 private:
 	string nome;                                        // nome do jogo
-	float preco;                                        // preço do jogo
+	float preco;                                        // preï¿½o do jogo
 	int horas;                                          // quantidade de horas jogadas
 	float custo;                                        // valor por hora jogada
 	
@@ -17,9 +17,9 @@ private:
 	}          
 
 public:
-	void adquirir(const string& titulo, float valor);	// preencher informações
-	void atualizar(float valor);                        // atualizar preço do jogo
+	void adquirir(const string& titulo, float valor);	// preencher informaï¿½ï¿½es
+	void atualizar(float valor);                        // atualizar preï¿½o do jogo
 	void jogar(int tempo);                              // registrar horas jogadas
-	void exibir();                                      // mostrar informações
+	void exibir();                                      // mostrar infor
 };
 
